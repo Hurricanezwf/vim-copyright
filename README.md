@@ -18,10 +18,13 @@ Add following line in your .vimrc:
 Reload ```.vimrc``` and ```:PlugInstall``` to install plugin.
 
 # Customization
-Defind company name to be used in copyright header.
+Define company name to be used in copyright header.
+
 ```let g:copyright_company_name = "xyz company"```
 
 By default user name and email is fetched from git config files.
 Add following to vimrc to override this behavior.
+
 ```let g:copyright_name = "name"```
+
 ```let g:copyright_email = "email"```
