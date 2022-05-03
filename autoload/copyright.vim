@@ -29,7 +29,7 @@ function! s:company_name()
 endfunction
 
 function! copyright#cstyle()
-  call setline(1, '// Copyright '.s:year().' 's:name()')
+  call setline(1, '// Copyright '.s:year().' '.s:name().' ('.s:email().')')
   call setline(2, '//')
   call setline(3, '// Licensed under the Apache License, Version 2.0 (the "License");')
   call setline(4, '// you may not use this file except in compliance with the License.')
