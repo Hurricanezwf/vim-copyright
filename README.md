@@ -6,14 +6,14 @@ Supports C/C++, python and bash types.
 ### Install with Vundle
 Add following line in your .vimrc:
 
-```Plugin "nemausus/vim-copyright"```
+```Plugin "Hurricanezwf/vim-copyright"```
 
 Reload ```.vimrc``` and ```:PlugingInstall``` to install plugin.
 
 ### Install with Vim-Plug
 Add following line in your .vimrc:
 
-```Plug "nemausus/vim-copyright"```
+```Plug "Hurricanezwf/vim-copyright"```
 
 Reload ```.vimrc``` and ```:PlugInstall``` to install plugin.
 

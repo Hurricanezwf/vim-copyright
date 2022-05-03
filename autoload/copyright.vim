@@ -29,8 +29,19 @@ function! s:company_name()
 endfunction
 
 function! copyright#cstyle()
-  call setline(1, '// Copyright: '.s:company_name().' '.s:year())
-  call setline(2, '// Author: '.s:name().' ('.s:email().')')
+  call setline(1, '// Copyright '.s:year().' 's:name()')
+  call setline(2, '//')
+  call setline(3, '// Licensed under the Apache License, Version 2.0 (the "License");')
+  call setline(4, '// you may not use this file except in compliance with the License.')
+  call setline(5, '// You may obtain a copy of the License at')
+  call setline(6, '//')
+  call setline(7, '//      https://www.apache.org/licenses/LICENSE-2.0')
+  call setline(8, '//')
+  call setline(9, '// Unless required by applicable law or agreed to in writing, software')
+  call setline(10, '// distributed under the License is distributed on an "AS IS" BASIS,')
+  call setline(11, '// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.')
+  call setline(12, '// See the License for the specific language governing permissions and')
+  call setline(13, '// limitations under the License.')
 endfunction
 
 function! copyright#python()
